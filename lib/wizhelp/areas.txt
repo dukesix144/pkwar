@@ -1,0 +1,38 @@
+=== Creating Areas Guide ===
+
+DIRECTORY STRUCTURE:
+Your areas should be organized under /lib/areas/<areaname>/
+
+ROOM TYPES:
+1. Standard Room - No money, basic room
+   from lib.models.entity import Room
+   
+2. Random Room - Drops coins on first visit
+   from lib.special_rooms import RandomRoom
+
+CONNECTING TO BACKBONE:
+The backbone has 40 rooms (backbone_1 through backbone_40).
+Connect your area entrance to one of these rooms.
+
+EXAMPLE AREA STRUCTURE:
+/lib/areas/darkforest/
+  entrance.py     - Area entrance (connects to backbone)
+  path1.py        - Internal rooms
+  path2.py        
+  treasure.py     - RandomRoom with money
+  boss_lair.py    - Standard room (no money)
+
+BEST PRACTICES:
+- Use unique room names: 'darkforest_entrance', 'darkforest_path1'
+- Mix room types - not every room should have money
+- Create interesting descriptions and examine items
+- Test all exits work both ways
+- Document your area with a README
+
+LOADING YOUR AREA:
+1. Create all room files
+2. Use 'load areas/darkforest/entrance' to test
+3. Make sure all exits connect properly
+4. Submit to higher level implementors for review
+
+Remember: Only RandomRoom drops coins. Use it sparingly!

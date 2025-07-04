@@ -1,0 +1,40 @@
+=== Implementor Coding Help ===
+
+DIRECTORY STRUCTURE:
+/wizrooms/<yourname>/ - Your personal directory
+/areas/<areaname>/ - Completed areas for gameplay
+
+ROOM FILES:
+Create rooms as individual .py files with a load() function:
+
+```python
+from lib.models.entity import Room, Exit, DescriptionItem
+from lib.models.enums import ExitType
+
+def load():
+    return Room(
+        name='unique_room_name',
+        description="Room description here.",
+        exits=[
+            Exit(
+                name='north',
+                description='Exit description.',
+                destination='target_room_name',
+                exit_type=ExitType.PATH
+            )
+        ]
+    )
+```
+
+COMMANDS:
+- load <file> - Load your room file
+- goto <room> - Teleport to a room
+- trans <player> - Bring player to you
+- dest <object> - Destroy an object
+- clone <template> - Create an object
+
+DEBUGGING:
+Check /wizrooms/<yourname>/debug.log for errors
+
+MONEY ROOMS:
+Use RandomRoom from lib.special_rooms for rooms that drop coins.
