@@ -1,0 +1,68 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Topic: Backbone
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The Backbone is the main area of PKMUD where wars are fought. It consists
+of an abandoned military complex with approximately 40+ interconnected rooms
+themed around a decommissioned military installation.
+
+LAYOUT:
+        x   x x x
+         \   \|/
+          x   x-x
+         /   /|
+        x   x x
+        |  /
+        x-x             x-x-x
+       /   \           /     \
+      x     x         x       x-x-x
+             \       /
+              x-x-x-x
+              | | |  \
+              x W G   x
+             /         \
+  x-x       x           x-x-x     x-x
+     \     /                 \   /
+      x-x-x                   x-x
+
+W = War Room (your starting point as a ghost)
+G = Gerkin's Shop (buy equipment and supplies)
+x = Various rooms in the abandoned military complex
+
+GETTING THERE:
+- From the War Room, go SOUTH to enter the backbone
+- Ghosts can drift freely through all areas
+- Alive players during war spawn randomly in the backbone
+
+AREAS INCLUDE:
+- Main Entrance and Guard Station
+- Vehicle Depot and Maintenance Facilities  
+- Communications Center and Radar Station
+- Barracks and Mess Hall
+- Training Grounds and Firing Range
+- Supply Depot and Armory Complex
+- Administration Buildings
+- Medical Facility and Chapel
+- And many more abandoned military structures
+
+SPECIAL FEATURES:
+- The backbone serves as the central hub for all other areas
+- Wizard-created areas in /areas/ connect back to backbone rooms
+- Ghosts can move through locked doors that alive players cannot
+- During wars, alive players spawn randomly throughout the backbone
+- No money is found in backbone rooms - check other areas for coins
+
+STRATEGY TIPS:
+- Explore thoroughly to find money for equipment
+- Learn the layout - it's crucial during wars
+- Some rooms connect in unexpected ways
+- Gerkin's shop is essential for getting war supplies
+
+The backbone represents years of military history now abandoned to time,
+but perfect for the endless wars that rage across its forgotten halls.
+
+See also: war, gerkin, ghost, money
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

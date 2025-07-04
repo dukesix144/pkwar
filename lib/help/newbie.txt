@@ -1,0 +1,28 @@
+=== PKMUD Newbie Help ===
+
+Welcome to PKMUD - A Player Killing MUD!
+
+BASICS:
+- You start as a ghost in the warroom
+- Type 'war on' to participate in wars
+- Push the button to start a war (60 second countdown)
+- Wars can be FFA (free for all), Team, or BvR (best vs rest)
+
+COMMANDS:
+- look (l) - See your surroundings
+- say <message> - Talk to the room
+- who - See who's online
+- score - Check your stats
+- help <command> - Get help on a command
+
+EXPLORATION:
+- Move around with n/s/e/w/ne/nw/se/sw
+- Type 'explorer' to see your progress
+- Find new rooms to gain explorer rank
+
+COMBAT:
+- kill <player> - Attack someone during war
+- blick - Lick blood for full heal
+- wimpy <percent> - Auto-flee at low health
+
+Type 'help' for full command list.

@@ -1,0 +1,29 @@
+=== War System Help ===
+
+Wars are the heart of PKMUD!
+
+STARTING A WAR:
+1. Be a ghost in the warroom
+2. Have 'war on' enabled
+3. Push the button (need 2+ players with war on)
+4. 60 second countdown begins
+
+WAR TYPES:
+- FFA: Free for all, last player alive wins
+- Team: Two teams battle it out
+- BvR: Best vs Rest (enforcers vs players)
+
+DURING WAR:
+- You spawn randomly on the backbone
+- Kill other players to win
+- First kill gets Spirit of Gerkin (yellow *)
+- After 15/30 minutes, arena starts shrinking
+- Eventually becomes 1x1 with dogs of war
+
+CLASSES (Team/BvR only):
+- Fighter: 1.5x HP, no SP
+- Kamikaze: 3x damage, explodes on death
+- Mage: 1.5x SP, can gate and fireball
+- Hunter: Can track and follow players
+
+Type 'class <name>' during war prep to choose.
